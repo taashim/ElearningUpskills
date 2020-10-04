@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="90.881">
+<testcase classname="Signup and Email Validation Features" name="Signup to Elearning upskills" time="89.341">
+<system-out><![CDATA[Given I am able to naviagte onto the Sign up page...........................passed
+When I click on the Signup button...........................................passed
+And I Enter the First Name as "Tanu"........................................passed
+And I Enter the Last Name as "Malhotra".....................................passed
+And I Enter the Email as "malhotratanu@gmail.com"...........................passed
+And I Enter the Username as "Taashi27"......................................passed
+And I Enter the Password as "123456"........................................passed
+And I Enter the Confirm Password as "123456"................................passed
+And I click on the Register button..........................................passed
+Then I should see the message as "Registration".............................passed
+And I should see the mailid as "malhotratanu@gmail.com".....................passed
+And I should see the text as "Compose message"..............................passed
+And I Enter the SendTo as "Taashi17"........................................passed
+And I Enter the Subject as "Hi for Testing".................................passed
+And I Enter Message as "Hello Ms. Tanu".....................................passed
+And I click on the Send Message button......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
